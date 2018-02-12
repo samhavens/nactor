@@ -1,5 +1,20 @@
-NActor - Node.js Event based actor model framework for game
+NewActor - Node.js event-based Actor model framework based on Nactor
 ===========================================================
+
+## This is a fork of nactor. The goal is to make a better implementation of the actor model in Node.js using:
+
+* [this post as a starting point](https://monades.roperzh.com/get-to-know-the-actor-model/)
+* [ES6 Symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) as the address of the actor
+* [Mori](http://swannodette.github.io/mori/) to hide actor state from the outside
+* [Redis pub/sub](https://github.com/louischatriot/node-redis-pubsub) to pass messages 
+
+I haven't thought of a way to handle supervision. I mean, it's state, so... throw it into Redis?
+
+### Status
+
+Just an idea.
+
+Anyway, here is nactor's README
 
 Description
 -------------
